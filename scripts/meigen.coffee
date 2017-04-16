@@ -1,3 +1,10 @@
+# Description:
+#  ネガティブ発言に反応するぞ！
+#
+# Author:
+#  UsuiKakeru
+#
+
 module.exports = (robot) ->
   # robot.respond /stop/i, (msg)->
   #   msg.send "ストップ"
