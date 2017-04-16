@@ -1,8 +1,10 @@
 # syuzou-slack-bot
-##なにこれ  
+###なにこれ  
+
 slackのメンバーとしてネガティブ発言に反応する暑苦しいslackbotです  
 
-##使い方  
+###使い方  
+
 1. slackにhubotを導入しアカウントを作成  
 2. 作成したアカウントのトークンをメモしておく  
 3. `# HUBOT_SLACK_TOKEN=メモしたやつ ./bin/hubot --adapter slack
