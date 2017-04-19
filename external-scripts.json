@@ -1,2 +1,6 @@
 [
+  "hubot-schedule",
+  "hubot-help",
+  "hubot-maps",
+  "hubot-redis-brain"
 ]
