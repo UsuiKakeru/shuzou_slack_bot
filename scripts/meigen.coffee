@@ -7,6 +7,10 @@
 
 module.exports = (robot) ->
 
+  shuzou = (riactWord, sendWord) ->
+    robot.hear riactWord, (msg) ->
+      msg.send sendWord
+
   robot.hear /暑い|熱い|あつい|暑苦しい/i, (msg) ->
     msg.send msg.random ["暑くなければ夏じゃない。熱くなければ人生じゃない！","もっと熱くなれよ 熱い血燃やしてけよ！\n人間熱くなったときが本当の自分に出会えるんだ！！\nだからこそ\nもっと熱くなれよおぉぉぉぉぉぉぉぉぉぉ！！！！！"]
 
